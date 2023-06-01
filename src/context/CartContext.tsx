@@ -1,7 +1,6 @@
 import { createContext, ReactNode, useEffect, useState } from 'react'
 import { Coffee } from '../pages/Home/components/OurCoffees/CoffeeCard'
 import { produce } from 'immer'
-import { json } from 'react-router-dom'
 
 export interface CartItem extends Coffee {
   quantity: number
